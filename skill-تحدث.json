@@ -1,0 +1,926 @@
+{
+  "intents": [
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "أريد ضبط روبوت التشات ليعمل في جكاني"
+        },
+        {
+          "text": "أي لغات تتكلم؟"
+        },
+        {
+          "text": "أين ولدت؟"
+        },
+        {
+          "text": "احكي لي عن حياتك"
+        },
+        {
+          "text": "صف نفسك من فضلك"
+        },
+        {
+          "text": "فلنتحدث عنك"
+        },
+        {
+          "text": "قدم نفسك"
+        },
+        {
+          "text": "قل شيئا عن نفسك"
+        },
+        {
+          "text": "كم عمرك؟"
+        },
+        {
+          "text": "كيف أستطيع تحديد طريقة عملك؟"
+        },
+        {
+          "text": "كيف تعمل؟"
+        },
+        {
+          "text": "لماذا تكون موجودا هنا؟"
+        },
+        {
+          "text": "ما اسمك؟"
+        },
+        {
+          "text": "ماذا يجب علي أن أعرف عنك؟"
+        },
+        {
+          "text": "معلومات عنك"
+        },
+        {
+          "text": "من أنت؟"
+        },
+        {
+          "text": "من أين أنت؟"
+        },
+        {
+          "text": "هل أستطيع استخدام لغة أخرى؟"
+        },
+        {
+          "text": "هل تعرف من أنت؟"
+        },
+        {
+          "text": "هل يمكنني معرفة اسمك؟"
+        }
+      ],
+      "description": "السؤال عن خاصيات شخصية عامة"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "أريد معرفة نوع الأسئلة التي يمكنكم تقديم الأجوبة عنها."
+        },
+        {
+          "text": "أي أشياء تسطيع معالجتها؟"
+        },
+        {
+          "text": "أي خاصيات توجد هنا؟"
+        },
+        {
+          "text": "أي موضوع آخر يمكنك مساعدتي عليه؟"
+        },
+        {
+          "text": "أي نوع من الأشياء تستطيع تنفيذها؟"
+        },
+        {
+          "text": "أين يمكنني الاطلاع على الأسئلة المتكررة؟"
+        },
+        {
+          "text": "ساعدني الآن"
+        },
+        {
+          "text": "على ما أنت قادر؟"
+        },
+        {
+          "text": "فيه شيء يمكنك مساعدتي عليه؟"
+        },
+        {
+          "text": "قل لي شيئا"
+        },
+        {
+          "text": "قل لي عن نوع الأشياء التي تستطيع القيام بها."
+        },
+        {
+          "text": "كيف استخدمك؟"
+        },
+        {
+          "text": "كيف تستطيع حل مشاكلي؟"
+        },
+        {
+          "text": "كيف تستطيع مساعدتي؟"
+        },
+        {
+          "text": "كيف تنفع؟"
+        },
+        {
+          "text": "كيف يمكنني استخدامك؟"
+        },
+        {
+          "text": "لا أدري ما علي أن أطلب"
+        },
+        {
+          "text": "ماذا تجيد؟"
+        },
+        {
+          "text": "ماذا تستطيع أن تفهم؟"
+        },
+        {
+          "text": "ماذا تعالج؟"
+        },
+        {
+          "text": "ماذا تفعل؟"
+        },
+        {
+          "text": "ماذا يمكنني أن أطلب منك؟"
+        },
+        {
+          "text": "ما هو هذا ال4؟"
+        },
+        {
+          "text": "ما هي خياراتي؟"
+        },
+        {
+          "text": "ما هي خياراتي التي يمكنك مساعدتي عليها؟"
+        },
+        {
+          "text": "ما هي قدراتك؟"
+        },
+        {
+          "text": "مرحبا، ماذا تفعل؟"
+        },
+        {
+          "text": "هل عندكم قائمة للأشياء التي يمكنني التكلم معكم عنها؟"
+        },
+        {
+          "text": "هل يمكنكم إخباري عن الخدمات التي تستطيعون تقديم المساعدة بشأنها؟"
+        },
+        {
+          "text": "هل يمكنم عرض قائمة علي لأنواع الأمور التي يمكنكم مساعدتي عليها؟"
+        }
+      ],
+      "description": "السؤال عن قابلية البوت"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "أرجوك إيصالي بوكيل إنساني من فضلك."
+        },
+        {
+          "text": "أرجوك مساعدتي على الوصول إلى وكيل"
+        },
+        {
+          "text": "أرسلني إلى وكيل"
+        },
+        {
+          "text": "أريد التحدث مع أحد"
+        },
+        {
+          "text": "أريد مديرا"
+        },
+        {
+          "text": "أريد وكيلا"
+        },
+        {
+          "text": "أريد وكيلا ليساعدني"
+        },
+        {
+          "text": "أطلب الاتصال بشخص"
+        },
+        {
+          "text": "أطلب ممثل خدمة الزبائن من فضلك"
+        },
+        {
+          "text": "أطلب وكيل حقيقي من فضلكم"
+        },
+        {
+          "text": "أنا في حاجة إلى مساعدة من إنسان"
+        },
+        {
+          "text": "أود التحدث مع شخص"
+        },
+        {
+          "text": "أود التكلم مع إنسان"
+        },
+        {
+          "text": "أوصلني إلى موظفة من فضلك"
+        },
+        {
+          "text": "أين يوجد أقرب وكيل؟"
+        },
+        {
+          "text": "الاتصال بشخص"
+        },
+        {
+          "text": "الاتصال بوكيل"
+        },
+        {
+          "text": "بدي أحكي مع شخص من فصلكم"
+        },
+        {
+          "text": "دعني من فضلك أتحدث مع إنسان"
+        },
+        {
+          "text": "فيه أحد يمكن أتكلم معه؟"
+        },
+        {
+          "text": "كيف يمكنني تخطي قائمة الخيارات المسجلة والانتقال إلى شخص حي مباشرة؟"
+        },
+        {
+          "text": "لا أريد التحدث مع روبوت"
+        },
+        {
+          "text": "لا أريد التحدث معك"
+        },
+        {
+          "text": "لا تريد روبوتا؟"
+        },
+        {
+          "text": "لازم أتكلم مع ممثل. كيف يمكنني ذلك؟"
+        },
+        {
+          "text": "مرحبا، ممكن تنقلني؟"
+        },
+        {
+          "text": "مساعدة من وكيل"
+        },
+        {
+          "text": "ممكن أتحدث مع إنسان؟"
+        },
+        {
+          "text": "ممكن أتحدث مع شخص حي؟"
+        },
+        {
+          "text": "ممكن اتصل بوكيل؟"
+        },
+        {
+          "text": "من فضلك اتصل بيني وبين وكيل حي"
+        },
+        {
+          "text": "نعم، "
+        },
+        {
+          "text": "هل تستطيع توصيلي بشخص حقيقي؟"
+        },
+        {
+          "text": "هل يمكن تلقي المساعدة على الاتصال بوكيل؟"
+        },
+        {
+          "text": "هل يمكنك لو سمحت نقلي إلى مديرك؟"
+        },
+        {
+          "text": "هل يوجد هناك واحد أستطيع التحدث معه في الحقيقة؟"
+        },
+        {
+          "text": "يرجى الاتصال"
+        },
+        {
+          "text": "يمكن أتحدث مع مستشار؟"
+        }
+      ],
+      "description": "طلب وكيل إنسان"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "قل لي، هل أنت إنسان أم لا؟"
+        },
+        {
+          "text": "كيف أدري أنك إنسان حقيقي؟"
+        },
+        {
+          "text": "هل أتحدث مع إنسان؟"
+        },
+        {
+          "text": "هل أتحدث مع إنسان أم مع برمجية؟"
+        },
+        {
+          "text": "هل أتحدث مع بوت؟"
+        },
+        {
+          "text": "هل أتحدث مع ووتسون؟"
+        },
+        {
+          "text": "هل أنت إنسان؟"
+        },
+        {
+          "text": "هل أنت إنسان أم بوت؟"
+        },
+        {
+          "text": "هل أنت إنسان حقيقي؟"
+        },
+        {
+          "text": "هل أنت روبوت؟"
+        },
+        {
+          "text": "هل هذا مجرد حاسوب؟"
+        }
+      ],
+      "description": "السؤال ما إذا كان الحوار مع إنسان أم مع بوت"
+    },
+    {
+      "intent": "التواصل",
+      "examples": [
+        {
+          "text": "ماهو ايميل التواصل"
+        },
+        {
+          "text": "ماهو رقم الهاتف"
+        },
+        {
+          "text": "ماهي طرق التواصل"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "السلام",
+      "examples": [
+        {
+          "text": "السلام"
+        },
+        {
+          "text": "السلام عليكم"
+        },
+        {
+          "text": "السلام عليكم و رحمة الله"
+        },
+        {
+          "text": "السلام عليكم و رحمة الله و بركاته"
+        },
+        {
+          "text": "سلام"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ترحيب",
+      "examples": [
+        {
+          "text": "الو"
+        },
+        {
+          "text": "اهلا"
+        },
+        {
+          "text": "مرحب"
+        },
+        {
+          "text": "مرحبا"
+        },
+        {
+          "text": "ياهلا"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "حجز",
+      "examples": [
+        {
+          "text": "السبت"
+        },
+        {
+          "text": "ايش اقرب موعد"
+        },
+        {
+          "text": "ايش اقرب موعد متوفر"
+        },
+        {
+          "text": "حجز"
+        },
+        {
+          "text": "حجز موعد"
+        },
+        {
+          "text": "عندكم حجوزات"
+        },
+        {
+          "text": "ماهو اقرب موعد"
+        },
+        {
+          "text": "متى اقرب موعد"
+        },
+        {
+          "text": "هل يوجد حجز"
+        },
+        {
+          "text": "هل يوجد حجز متوفر"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "شكر",
+      "examples": [
+        {
+          "text": "اشكرك"
+        },
+        {
+          "text": "شكرا"
+        },
+        {
+          "text": "شكرا جزيلا"
+        },
+        {
+          "text": "شكرا لك"
+        },
+        {
+          "text": "ماقصرت"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "موقع",
+      "examples": [
+        {
+          "text": "الاتجاه"
+        },
+        {
+          "text": "الموقع"
+        },
+        {
+          "text": "اين يقع المستشفى"
+        },
+        {
+          "text": "اين يوجد المستشفى"
+        },
+        {
+          "text": "كيف يمكنني الوصول الى المستشفى"
+        },
+        {
+          "text": "مكان المستشفى"
+        },
+        {
+          "text": "موقع المستشفى"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "امراض",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ارهاق",
+          "synonyms": [
+            "تعب"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "التهاب",
+          "synonyms": [
+            "التهاب حنجره"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "حساسيه",
+          "synonyms": [
+            "سعال"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "كحه",
+          "synonyms": [
+            "سعال"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "كورونا",
+          "synonyms": [
+            "كرونا",
+            "كوفيد"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ما هو اليوم المناسب؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1626179408995",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1626179409036",
+      "previous_sibling": "handler_7_1626179409036"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1626179871832",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_2_1626179871833"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ماهو التخصص المراد؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_1_1626279434125",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1626279434125",
+      "previous_sibling": "handler_9_1626279434125"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1626180381933",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1626180381934"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ماهو الوقت المناسب؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1626179871832",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1626179871833",
+      "previous_sibling": "handler_2_1626179871833"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ماهو رقم الجوال؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1626180381933",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1626180381934",
+      "previous_sibling": "handler_4_1626180381934"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1626179408995",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_7_1626179409036"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1626279434125",
+      "context": {
+        "disease": "@امراض"
+      },
+      "conditions": "@امراض",
+      "event_name": "input",
+      "dialog_node": "handler_9_1626279434125"
+    },
+    {
+      "type": "standard",
+      "title": "ترحيب",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مرحبا،  تفضل كيف يمكن ان اقوم بخدمتك"
+              },
+              {
+                "text": "اهلا، تفضل كيف يمكنني ان اقوم بخدمتك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ترحيب",
+      "dialog_node": "node_10_1626126141102",
+      "previous_sibling": "مرحبا"
+    },
+    {
+      "type": "standard",
+      "title": "شكرا",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "عفوا، اذا كان هناك استفسار اخرى لا تترد في طرحه"
+              },
+              {
+                "text": "لا شكر على واجب، اذا كان هناك استفسار اخرى  لا تترد في طرحه"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#شكر",
+      "dialog_node": "node_10_1626186725509",
+      "previous_sibling": "node_1_1626219970602"
+    },
+    {
+      "type": "standard",
+      "title": "التواصل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "056188227711:الهاتف\nm.alnajrani1999@gmail.com :الايميل"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#التواصل",
+      "dialog_node": "node_1_1626182275266",
+      "previous_sibling": "node_7_1626280494618"
+    },
+    {
+      "type": "standard",
+      "title": "تواصل مع بشر",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ارقام التواصل مع خدمة العملاء\n0561722711:الهاتف\nm.alnajrani1999@gmail.com :الايميل"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_1_1626219970602",
+      "previous_sibling": "node_5_1626219741729"
+    },
+    {
+      "type": "standard",
+      "title": "عام-بشر ام بوت",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "انا بوت مخصص لخدمتك في جميع استفساراتك"
+              },
+              {
+                "text": "انا بوت"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_5_1626219741729",
+      "previous_sibling": "node_1_1626182275266"
+    },
+    {
+      "type": "standard",
+      "title": "مكان",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " حي الفيصلية، شارع صاري امام سوبرماركت بندة"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#موقع",
+      "dialog_node": "node_7_1626280494618",
+      "previous_sibling": "node_8_1626179281382"
+    },
+    {
+      "type": "frame",
+      "title": "حجوزات",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "شكرا لك، تم الحجز بنجاح"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#حجز",
+      "dialog_node": "node_8_1626179281382",
+      "previous_sibling": "node_9_1626126600875"
+    },
+    {
+      "type": "standard",
+      "title": "السلام",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "وعليكم السلام،  تفضل كيف يمكن ان اقوم بخدمتك"
+              },
+              {
+                "text": "و عليكم السلام و رحمة الله و بركاته،  تفضل كيف يمكن ان اقوم بخدمتك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#السلام",
+      "dialog_node": "node_9_1626126600875",
+      "previous_sibling": "node_10_1626126141102"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1626179281382",
+      "variable": "$disease",
+      "dialog_node": "slot_1_1626279434125",
+      "previous_sibling": "slot_3_1626180381933"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1626179281382",
+      "variable": "$number",
+      "dialog_node": "slot_3_1626180381933",
+      "previous_sibling": "slot_4_1626179871832"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1626179281382",
+      "variable": "$time",
+      "dialog_node": "slot_4_1626179871832",
+      "previous_sibling": "slot_6_1626179408995"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1626179281382",
+      "variable": "$date",
+      "dialog_node": "slot_6_1626179408995"
+    },
+    {
+      "type": "standard",
+      "title": "أي شيء آخر",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "لم أفهم، يمكنك محاولة اعادة الصياغة"
+              },
+              {
+                "text": "هل يمكنك اعادة صياغة عبارتك؟ أنا لا فهم"
+              },
+              {
+                "text": "لم أفهم قصدك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "أي شيء آخر",
+      "previous_sibling": "node_10_1626186725509",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "مرحبا",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مرحبا، كيف يمكنني مساعدتك؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "مرحبا"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": ":هل قصدت",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "كل ما سبق خطأ"
+    },
+    "human_agent_assist": {
+      "prompt": ":هل قصدت"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "تحدث",
+  "language": "ar",
+  "description": ""
+}
